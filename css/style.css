@@ -1,0 +1,406 @@
+html,
+body * {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+html {
+  font-size: 16px;
+}
+
+h1 {
+  font-family: "montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 5rem;
+  padding-top: 10px;
+}
+
+h2 {
+  font-family: "montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-family: "montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1rem;
+}
+h4 {
+  font-family: "montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1rem;
+  color: #0a0a0a;
+}
+
+p {
+  font-family: "montserrat", sans-serif;
+  font-style: normal;
+  padding: 15px;
+  justify-content: center;
+}
+
+small {
+  font-size: .95rem;
+}
+
+.layout {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  background-image: url(../images/EYtf1tjWoAE4fpD.jpeg);
+  background-repeat: repeat;
+  opacity: 0.9;
+}
+
+header {
+  max-width: 100%;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  transition: 0.3s;
+  background-image: url(../images/pokemon-pattern-wallpaper.jpg);
+  background-repeat: repeat;
+ 
+}
+
+#pokeLogo {
+  border-radius: 90%;
+  width: 40%;
+  height: auto;
+  transition: 0.5s;
+}
+
+
+figcaption {
+  display: none;
+}
+
+nav {
+  max-width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  align-items: center;
+  transition: 0.3s;
+}
+
+ul {
+  width: 15%;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding-top: 20px;
+  transition: 0.3s;
+}
+
+li a {
+  width: 125px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(1, 1, 1);
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: aliceblue;
+  border: solid 2px rgb(6, 6, 6);
+  transition: 0.3s;
+}
+
+a:hover {
+  background-color: rgb(186, 183, 183);
+  opacity: 0.75;
+  cursor: pointer;
+  transition: .5s;
+}
+
+a:active {
+  color: rgb(250, 247, 247);
+  border: solid 2px rgb(6, 6, 6);
+  background-color: rgb(0, 0, 0);
+  transition: 1s;
+}
+
+a:focus {
+  color: rgb(248, 248, 252);
+  border: solid 2.5px rgb(6, 6, 6);
+  background-color: rgb(0, 0, 0);
+  transition: 1s;
+
+}
+
+
+article {
+  width: 24%;
+  height: 100%;
+  vertical-align: top;
+  transition: 0.5s;
+  margin-bottom: 20px
+}
+
+.card {
+  max-width: 100%;
+
+  justify-content: center;
+  border: dotted 2.5px rgb(0, 0, 0);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.cardContainer {
+  max-width: 99%;
+
+  background-color: rgb(255, 252, 252);
+  border: dotted 2.5px rgb(0, 0, 0);
+  padding: 10px;
+}
+
+
+main {
+  min-width: 50%;
+  height: 100%;
+  padding: 10px;
+  background-color: rgb(253, 251, 251);
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery1 img {
+  width: 48%;
+  padding: 1px;
+}
+
+.gallery2 img {
+  width: 48%;
+  padding: 1px;
+}
+
+aside {
+  width: 24%;
+  height: 80%;
+  vertical-align: top;
+  transition: 0.3s;
+}
+
+.card img {
+  width: 125px;
+  height: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 50%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.premiumPlan ul {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+} 
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fefdfd;
+  border: 1px solid #050505;
+  border-radius: 5px;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+legend {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 20px;
+}
+
+
+label {
+  display: block;
+  font-size: 16px;
+  color: #020202;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="radio"],
+input[type="date"] {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  font-size:16px;
+  background-color: #7d7b7b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #515050;
+}
+
+#gender {
+  color: fff;
+} 
+
+footer {
+  width: 100%;
+  background-color: rgb(249, 251, 251);
+  transition: 0.3s;
+  justify-content: center;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+ /* Styles for mobile devices with screen width less than 640px */
+@media only screen and (max-width: 640px) {
+  .layout {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+  }
+  header, nav, main, article, aside, small, footer {
+    min-width: 100%;
+    transition: 0.5s;
+  }
+  h1 {
+  font-size: 1.5rem;
+  }
+  ul {
+    min-width: 100%;
+    display: block;
+    align-self: center;
+    padding: 10px;
+  }
+  main {
+    max-width: 100%;
+    flex: 100%;
+    order: 1;
+  }
+  article {
+   max-width: 100%;
+   order: 2;
+  }
+  aside {
+    max-width: 100%;
+        order: 3;
+  }
+}
+
+
+/* Styles for tablets with screen width between 640px and 1024px */
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .layout {
+    display: flex;
+    flex-direction: block;
+    flex-wrap: wrap;
+  }
+  header, nav, main, small, footer {
+    min-width: 100%;
+  }
+  h1 {
+  font-size: 1.5rem;
+  }
+  ul {
+    min-width: 100%;
+    display: inline-block;
+    align-self: center;
+    padding: 10px;
+  }
+  main {
+    min-width: 100%;
+    flex: 100%;
+    order: 1;
+  }
+  article {
+   min-width: 100%;
+   order: 2;
+  }
+  aside {
+    min-width: 100%;
+        order: 3;
+  }
+}
+
+/* Styles for desktop devices with screen width greater than 1024px */
+@media only screen and (min-width: 1025px) {
+  header, h1, h2, footer, small {
+    min-width: 100%;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  main, form {
+    max-width: 60%;
+  }
+  article, aside {
+    max-width: 20%;
+  }
+  .layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .column {
+    width: 50%;
+    max-width: 25%;
+    padding: 0 0 auto 0;
+  }
+  .column img {
+    width: 100%;
+  }
+}
+
